@@ -1,0 +1,11 @@
+# vim: ft=yaml
+# Custom Pillar Data for blackfire-formula
+
+blackfire-formula:
+  enabled: true
+  pkgs:
+    - blackfire-agent
+    - blackfire-php
+  server_id: 'replace'
+  server_token: 'replace'
+  log_level: 1
