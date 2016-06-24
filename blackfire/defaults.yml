@@ -9,3 +9,4 @@ blackfire:
   server_id: 'replace'
   server_token: 'replace'
   log_level: 1
+  agent_user: blackfire

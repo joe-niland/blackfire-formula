@@ -22,7 +22,7 @@ that differ from whats in defaults.yml
 {% do default_settings.blackfire.update(os_family_map) %}
 
 {# Merge in template:lookup pillar #}
-{% set blackfire-formula = salt['pillar.get'](
+{% set blackfire = salt['pillar.get'](
         'blackfire',
         default=default_settings.blackfire,
         merge=True
