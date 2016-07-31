@@ -1,10 +1,18 @@
 # blackfire-formula
 
-Purpose of formula. Include a short description of what the formula does.
+Installs and configure Blackfire agent and PHP probe.
 
 
 Describe in a readable form the states this formula supports with examples how to use those states.
 
+Current limitations:
+======================
+
++ If you upgrade to a new major version of PHP, you will have to reinstall the 'blackfire-php' package to enable this module in the new version of PHP.
+
+
+Development
+=====================
 
 Install and setup brew:
 ```
