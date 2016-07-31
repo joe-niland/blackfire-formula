@@ -13,7 +13,7 @@ blackfire_repo:
 {% endif %}
 
 blackfire_pkg:
-  pkg.installed:
+  pkg.latest:
     - pkgs: {{ blackfire.pkgs }}
     - require:
       - pkgrepo: deb http://packages.blackfire.io/debian any main
