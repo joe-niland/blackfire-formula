@@ -2,9 +2,6 @@
 
 Installs and configure Blackfire agent and PHP probe.
 
-
-Describe in a readable form the states this formula supports with examples how to use those states.
-
 Current limitations:
 ======================
 
